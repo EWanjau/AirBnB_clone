@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color:#484848;
+    font-size: 14pxpx;
+    font-family: "Circular","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.places{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: space-around;
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align:center;
+    position: relative;
+}
+
+.places h1{
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: -820px;
+}
+
+.places h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    orientation: horizontal;
+}
+.tinyhome {
+    border: 1px solid red;
+    padding: 1px 80px;
+    min-height: 400px;
+    width: 200px;
+}
+
+.myhome {
+    border: 1px solid red;
+    margin: 0px;
+    padding: 1px 80px;
+    min-height: 400px;
+    width: 200px;
+}
+
+.suite {
+    border: 1px solid red;
+    margin-left: 310px;
+    margin-top: 80px;
+    padding: 1px 80px;
+    max-width: 100px;
+    text-align: center;
+    min-height: 400px;
+    max-width: 300px;
+    margin-bottom: 80px;
+
+}
